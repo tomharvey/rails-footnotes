@@ -1,3 +1,9 @@
+FORK - CHANGES
+---------------
+404 errors are thrown when using in conjunction with themes_for_rails
+This happens when trying to build the textmate link....links disabled.
+
+
 Rails Footnotes
 License: MIT
 Version: 3.7.0
