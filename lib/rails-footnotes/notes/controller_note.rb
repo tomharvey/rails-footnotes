@@ -12,9 +12,10 @@ module Footnotes
       end
 
       def link
-        if controller_filename && controller_line_number
+        #if controller_filename && controller_line_number
           #escape(Footnotes::Filter.prefix(controller_filename, controller_line_number + 1, 3))
-        end
+        #end
+        return ""
       end
 
       def valid?
